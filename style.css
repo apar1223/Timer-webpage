@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+
+body{
+    font-family: 'Roboto',sans-serif;
+    background-color:  #ffddd2;
+    margin:0;
+    width: 1000;
+    /* padding-bottom: -230000px; */
+}
+.count{
+    background-color: #edf6f9;
+    height: 17rem;
+    font-size: 87px;
+    display: flex;
+justify-content: center;
+/* padding:; */
+/* align-items: center; */
+}
+
+.inputt{
+width: 100%;
+background-color: #83c5be;
+
+display: flex;
+justify-content: center;
+
+height: 9rem;
+padding-top: 25px;
+padding-bottom: 25px;
+
+/* display: inline; */
+}
+#houri{
+    height:20px;
+    font-size:14pt;
+    line-height: 1px;
+}
+#minutei
+{
+    height:20px;
+    font-size:14pt;
+    line-height: 1px;
+}
+#secondi{
+    height:20px;
+    font-size:14pt;
+    line-height: 1px;
+}
+.hours{
+    margin-top: 37px;
+    background-color: #006d77;
+    border: none;
+    color: white;
+    padding: 0px 131px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+   margin-top: 0px;
+   padding-top: -300px;
+   /* margin-right: 650px; */
+   /* margin-left: 650px; */
+    cursor: pointer;
+    z-index:1;
+}
+/* hours */
+
+/* button:hover{background-color:orange;} */
+
+/* button:focus{background-color:red;} */
+
+.Btn{
+    background-color: #ffddd2;
+    display: flex;
+    justify-content: center;
+  padding: 47px;
+}
+.but{
+    background-color: #e29578;
+    border: none;
+    color: white;
+  padding: 20px;
+    margin-left: 20px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  
+   /* margin-right: 650px; */
+   /* margin-left: 650px; */
+    /* cursor: pointer; */
+    
+    border-radius: 12px;
+   
+  }
+  .but:hover{
+    
+    background: white;
+    border: solid 1px white;
+    color: grey;
+    }
+    
+   
+  /* button{
+    @include corners (5px);
+    background:$base-color;
+    color:$white;
+    border: solid 1px $white;
+    text-decoration:none;
+    cursor:pointer;
+    font-size:1.2em;
+    padding: 18px 10px;
+    width:180px;
+    margin: 10px;
+     outline: none;
+      &:hover{
+        @include transition;
+        background:$white;
+        border: solid 1px $white;
+        color:$base-color;
+        }
+    } */
+
+    input{
+        z-index:1;
+    }
