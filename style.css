@@ -1,20 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
-
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body{
     font-family: 'Roboto',sans-serif;
-    background-color:  #ffddd2;
-    margin:0;
-    width: 1000;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
     /* padding-bottom: -230000px; */
 }
 .count{
     background-color: #edf6f9;
-    height: 17rem;
+    height: 33%;
+    width: 100%;
     font-size: 87px;
     display: flex;
 justify-content: center;
 /* padding:; */
-/* align-items: center; */
+align-items: center;
 }
 
 .inputt{
@@ -23,41 +31,28 @@ background-color: #83c5be;
 
 display: flex;
 justify-content: center;
+align-items: center;
+height: 33%;
 
-height: 9rem;
-padding-top: 25px;
-padding-bottom: 25px;
 
 /* display: inline; */
 }
-#houri{
-    height:20px;
-    font-size:14pt;
-    line-height: 1px;
-}
-#minutei
-{
-    height:20px;
-    font-size:14pt;
-    line-height: 1px;
-}
-#secondi{
-    height:20px;
-    font-size:14pt;
-    line-height: 1px;
+h2{
+  padding-right: 10px;
 }
 .hours{
-    margin-top: 37px;
+  
     background-color: #006d77;
     border: none;
     color: white;
-    padding: 0px 131px;
+   width: 20rem;
+   height: 8rem;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+    display: flex;
+    justify-content: center;
     font-size: 16px;
-   margin-top: 0px;
-   padding-top: -300px;
+   align-items: center;
    /* margin-right: 650px; */
    /* margin-left: 650px; */
     cursor: pointer;
@@ -73,7 +68,10 @@ padding-bottom: 25px;
     background-color: #ffddd2;
     display: flex;
     justify-content: center;
-  padding: 47px;
+    align-items: center;
+    height: 33%;
+    width: 100%;
+ 
 }
 .but{
     background-color: #e29578;
@@ -122,4 +120,22 @@ padding-bottom: 25px;
 
     input{
         z-index:1;
+    }
+    @media only screen and (max-width: 425px){
+      h2{
+        padding-right: 2px;
+      }
+      .hours{
+        width: 9rem;
+        height: 4rem;
+      }
+    }
+    @media only screen and (max-width: 768px){
+      h2{
+        padding-right: 1px;
+      }
+      .hours{
+        width: 15rem;
+        height: 6rem;
+      }
     }
